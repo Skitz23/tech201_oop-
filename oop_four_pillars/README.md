@@ -68,3 +68,25 @@ lambda is a keyword in Python for defining the anonymous function. A lambda func
 # where can the lambda function be useful?
 
 Lambda functions can be useful to write concise code without wasting multiple lines defining a function. They are also known as anonymous functions.
+
+# Disadvantages of OOP
+
+-More slow projects: Object-arranged programs are normally slower than procedure-based programs, as they ordinarily require more guidelines to be executed.
+-Not appropriate for a wide range of issues
+-Bigger program size: Object-arranged programs commonly include more lines of code than procedural projects.
+-It takes time to get used to it.
+-It required a lot of effort to create
+
+
+
+
+```class Book:
+    def __init__(self, title, quantity, author, price):
+        self.title = title
+        self.quantity = quantity
+        self.author = author
+        self.price = price
+```
+
+The __init__ special method, also known as a Constructor, is used to initialize the Book class with attributes such as title, quantity, author, and price.
+The term self in the attributes refers to the corresponding instances (objects).
